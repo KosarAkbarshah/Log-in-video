@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <section>
+            <video loop muted autoplay src="Plexus.mp4"></video>
+            <div>
+                <form action="">
+                    <div>
+                        <input type="email" placeholder="Email">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                    </div>
+                    <div>
+                        <input type="password" placeholder="password">
+                        <span onclick="para(this)" class="material-symbols-outlined">
+                            visibility_off
+                        </span>
+                    </div>
+                    <button>Register</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- fancy footer -->
+    <div class="box">
+        <a href="https://www.linkedin.com/in/kosar-akbarshah-22102b1b6/" target="_blank">
+            <span>
+                <img src="img/png (1).png" alt="linkedinicon">
+            </span>
+        </a>
+        <a href="https://github.com/KosarAkbarshah" target="_blank">
+            <span>
+                <img src="img/github-mark.png" alt="">
+            </span>
+        </a>
+
+        <div></div>
+        <div></div>
+        <h2>Coded by: </h2>
+        <h3>Kosar Akbarshah</h3>
+    </div>
+</body>
+<script>
+    let i = 1
+    function para(x) {
+        if (i % 2) {
+            x.previousElementSibling.setAttribute('type', 'text')
+            x.innerHTML = 'visibility'
+        } else {
+            x.previousElementSibling.setAttribute('type', 'password')
+            x.innerHTML = 'visibility_off'
+
+        }
+        i++
+    }
+
+</script>
+
+</html>
