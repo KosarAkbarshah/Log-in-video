@@ -1,8 +1,7 @@
 #Log In form with background Video🎥
 
 **Tech glass effect Log In with video **
-
-![Screenshot 2024-08-18 140931](https://github.com/user-attachments/assets/e9cd8943-14f3-4ae3-8b44-4bc694049d29)
+![Screenshot 2024-08-24 082113](https://github.com/user-attachments/assets/ec5837b9-0bb1-427a-9c89-c73f9d65fc1f)
 
 
 - 🎇[Demo Project]( https://kosarakbarshah.github.io/Log-in-video/)
